@@ -3,11 +3,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Budget from './components/Budget';
 import Remaining from './components/Remaining';
 import Spent from './components/Spent';
+import ExpenseList from './components/ExpenseList';
+import AddExpenseForm from "./components/AddExpenseForm";
 
 const App =() => {
   return (
 <>
 <div className="container">
+
+
   <h1 className='mt-3'> W BUDGET PLANNER</h1>
   <div className="row mt-3">
 
@@ -24,6 +28,22 @@ const App =() => {
       </div>
 
   </div>
+
+
+<h3 className="mt-3">Expenses</h3>
+<div className="row mt-3">
+  <div className="col-sm">
+    <ExpenseList />
+  </div>
+</div>
+
+<p></p>
+<h3 className="mt-3">Add your expenses</h3>
+<div className="mt-3">
+  <div className="col -sm">
+    <AddExpenseForm />
+  </div>
+</div>
 </div>
 </>
   )
