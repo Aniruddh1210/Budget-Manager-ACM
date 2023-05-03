@@ -20,7 +20,9 @@ const AddExpenseForm = () => {
         dispatch({
             type: 'ADD_EXPENSE',
             payload: expense,
-        })
+        });
+        setName('');
+        setCost('');
     };
 
 return (
@@ -36,9 +38,8 @@ return (
                id='name'
                value={name}
                onChange={(event) => setName(event.target.value)}
-               >
+               />
 
-            </input>
         </div>
         <div className="col-sm">
             <label for ='cost'>Cost</label>
