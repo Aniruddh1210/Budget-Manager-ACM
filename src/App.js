@@ -5,10 +5,11 @@ import Remaining from './components/Remaining';
 import Spent from './components/Spent';
 import ExpenseList from './components/ExpenseList';
 import AddExpenseForm from "./components/AddExpenseForm";
+import { AppProvider } from "./context/AppContext";
 
 const App =() => {
   return (
-<>
+<AppProvider>
 <div className="container">
 
 
@@ -45,7 +46,7 @@ const App =() => {
   </div>
 </div>
 </div>
-</>
+</AppProvider>
   )
 }
 
