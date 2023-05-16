@@ -12,7 +12,7 @@ The Budget Manager App is a web application built using React and Bootstrap CSS 
 ## TO RUN THE WEBSITE 
 Go to this link :
 
-[budget-manager-acm.vercel.app](url)
+[budget-manager-acm.vercel.app]
 
 
 ## Installation
