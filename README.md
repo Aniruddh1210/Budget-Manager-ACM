@@ -9,6 +9,10 @@ The Budget Manager App is a web application built using React and Bootstrap CSS 
 - **Expense Tracking**: Categorize your expenses and keep track of your spending habits in real-time.
 - **Budget Creation**: Create custom budget categories to allocate funds and manage your expenses effectively.
 
+## TO RUN THE WEBSITE 
+Go to this link :
+budget-manager-acm.vercel.app
+
 
 ## Installation
 
